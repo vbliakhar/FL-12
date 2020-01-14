@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+article {
+  min-width: 900px;
+  max-width: 945px;
+  margin: auto;
+}
+nav{
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+nav .logo{
+  background-color: red;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+nav .menu{
+  background-color: grey;
+  display:grid;
+  justify-items: center;
+  align-items: center;
+}
+nav ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 0;
+  grid-column-gap: 15px;
+}
+nav li{
+  list-style: none;
+}
+nav li:hover {
+  cursor: pointer;
+}
+/* Header*/
+.Test{
+  background: url(../img/home-bg.jpg);
+  height: 800px;
+  width: 16008;
+}

@@ -1,16 +1,16 @@
 @media print {
-    .tm-main-nav, 
-    .tm-team-img, 
+	.tm-team-img, 
+	.tm-main-nav, 
+	section.blocks .tm-content-box,
     #about,
-    section.blocks .tm-content-box, 
     div#tmCarousel ol,
     div.tm-main-content section.tm-content-box:nth-child(2n) {
         display: none;
     }
     .tm-team-description-container {
-        max-width: 100%;
+		max-width: 100%;
+		padding-bottom: 0;
         padding-top: 0;
-        padding-bottom: 0;
     }
     .tm-main-content {
         padding: 0;
@@ -27,8 +27,8 @@
         text-transform: uppercase;
     }
     section.heading div:first-child h2 {
+		font-weight: 300;
         color: lightskyblue;
-        font-weight: 300;
     }
    .heading .padding-medium {
         padding: 0;
@@ -37,9 +37,9 @@
         margin-top: 20px;
     }
     .heading .padding-medium ol {
+		margin: auto;
         list-style-type: none;
         width: 300px;
-        margin: auto;
         padding: inherit;
     }
     section.blocks {
@@ -100,8 +100,8 @@
         to { left: 0px; }
     }
     p.tm-banner-text {
+		animation-name: task;
         position: relative;
-        animation-name: task;
         animation-duration: 4s;
         animation-timing-function: ease-out;
         
